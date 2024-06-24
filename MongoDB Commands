@@ -1,5 +1,0 @@
-mongo // to start mongo shell
-show dbs // to see database cluster
-use feedback // to use table name
-show collections // to see collections in cluster 
-db.feeds.find() // to see records with the given table name
