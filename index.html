@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-box"> 
+        <div class="title"> 
+            <h1>Customer Feedback System</h1> 
+            <h3>Please give your valuable feedback here.</h3> 
+        </div>
+        <form> 
+            <label for="username"> 
+                <i>Full Name : </i>
+            </label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="email"> 
+                <i>Email Address : </i> 
+            </label> 
+            <input type="email" id="email" name="email" required><br>
+            <label for="phno">
+                <i>Phone Number : </i>
+            </label>
+            <input type="tel" id="phno" name="Phone Number" required><br>
+            <label> 
+                <i>Are you happy with our services provided?</i> 
+            </label> 
+            <div class="radio-group"> 
+                <input type="radio" id="yes" 
+                       name="satisfy" value="yes" checked> 
+                <label for="yes"><i>Very much</i></label>
+                
+                <input type="radio" id="moderate" 
+                       name="satisfy" value="ok" checked> 
+                <label for="moderate"><i>Okish</i></label>
+  
+                <input type="radio" id="no" 
+                       name="satisfy" value="no"> 
+                <label for="no"><i>Not happy</i></label> 
+            </div><br>
+            <label for="msg"> 
+                <i style="margin-right: 3px;">Write your Suggestions : </i>  
+            </label> 
+            <textarea id="msg" name="msg" 
+                      rows="5" cols="20" required> 
+            </textarea><br>       
+            <button type="submit"> 
+                <i>Submit</i> 
+            </button>
+        </form>
+    </div>
+</body>
+</html>
